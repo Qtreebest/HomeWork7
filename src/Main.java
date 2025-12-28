@@ -27,26 +27,26 @@ public class Main {
         System.out.println();
         System.out.println("Task3");
         System.out.println("Method with wheel");
-        int money = 3450;
+        int remainingMoney = 3450;
         int day = 0;
-        while (money > 0) {
+        while (remainingMoney > 0) {
             day++;
             if (day % 5 == 0) {
                 continue;
             }
-            money -= 100;
+            remainingMoney -= 100;
         }
         System.out.println(day);
 
 
         System.out.println();
         System.out.println("Method with for");
-        money = 3450;
+        remainingMoney = 3450;
         day = 0;
-        for (; money > 0; ) {
+        for (; remainingMoney > 0; ) {
             day++;
             if (day % 5 == 0) continue;
-            money -= 100;
+            remainingMoney -= 100;
         }
         System.out.println(day);
 
